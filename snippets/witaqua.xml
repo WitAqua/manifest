@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="witaqua"
+           fetch="https://github.com/WitAqua/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/14" />
+
+  <!-- FuliaUI additions -->
+  <project path="manifest" name="manifest" remote="witaqua" />
+</manifest>
