@@ -23,14 +23,14 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="LineageOS/android_build" groups="pdk,sysui-studio" >
+  <!-- <project path="build/make" name="LineageOS/android_build" groups="pdk,sysui-studio" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
     <linkfile dest="build/core" src="core" />
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
-  </project>
+  </project> -->
   <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" remote="aosp" />
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile dest="WORKSPACE" src="bazel.WORKSPACE" />
@@ -40,10 +40,10 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
+  <!-- <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
-  </project>
+  </project> -->
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />

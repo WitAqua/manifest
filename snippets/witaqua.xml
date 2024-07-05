@@ -9,4 +9,23 @@
 
   <!-- FuliaUI additions -->
   <project path="manifest" name="manifest" remote="witaqua" />
+
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="witaqua" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="witaqua" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
+
+  <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
 </manifest>
