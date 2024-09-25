@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="witaqua"
+           fetch="https://github.com/WitAqua"
+           revision="15" />
+
+  <remote  name="witaqua-devices"
+           fetch="https://github.com/WitAqua-Devices"
+           revision="15" />
+
+  <!-- WitAqua -->
+  <!-- Rootdir -->
+  <project path="bionic" name="bionic" groups="pdk" remote="witaqua" />
+  <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="manifest" name="manifest" remote="witaqua" />
+
+  <!-- Bootable -->
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" groups="pdk" remote="witaqua" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="witaqua" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="witaqua" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="witaqua" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/witaqua/sepolicy" name="device_witaqua_sepolicy" remote="witaqua" />
+  <project path="device/generic/common" name="device_generic_common" remote="witaqua" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="witaqua" />
+  <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="witaqua" />
+
+  <!-- External -->
+  <project path="external/avb" name="external_avb" groups="pdk" remote="witaqua" />
+  <project path="external/cronet" name="external_cronet" groups="pdk" remote="witaqua" />
+  <project path="external/dtc" name="external_dtc" groups="pdk" remote="witaqua" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="witaqua" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="witaqua" />
+  <project path="external/mksh" name="external_mksh" remote="witaqua" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="witaqua" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/zstd" name="external_zstd" remote="witaqua" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="witaqua" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="witaqua" />
+  <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="witaqua" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/google/gchips" name="hardware_google_gchips" groups="pdk-lassen" remote="witaqua" />
+  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" groups="pdk-lassen" remote="witaqua" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel" remote="witaqua" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="witaqua" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="witaqua" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="witaqua" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="witaqua" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="witaqua" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="witaqua" />
+
+  <!-- Packages -->
+  <project path="packages/apps/WitAquaLauncher" name="packages_apps_WitAquaLauncher" groups="pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" groups="pdk-fs" remote="witaqua" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="witaqua" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="witaqua" />
+  <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" groups="pdk-fs" remote="github" revision="sc-qpr3" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="witaqua" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="witaqua" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="witaqua" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="witaqua" />
+  <project path="packages/modules/common" name="packages_modules_common" groups="pdk" remote="witaqua" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" groups="pdk-fs" remote="witaqua" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/witaqua" name="prebuilts_witaqua" remote="witaqua" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-15.0.0_r0.10" />
+
+  <!-- System -->
+  <project path="system/bpf" name="system_bpf" groups="pdk" remote="witaqua" />
+  <project path="system/core" name="system_core" groups="pdk" remote="witaqua" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="witaqua" />
+  <project path="system/libhidl" name="system_libhidl" groups="pdk,sysui-studio" remote="witaqua" />
+  <project path="system/libziparchive" name="system_libziparchive" groups="pdk" remote="witaqua" />
+  <project path="system/logging" name="system_logging" groups="pdk" remote="witaqua" />
+  <project path="system/media" name="system_media" groups="pdk" remote="witaqua" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="witaqua" />
+  <project path="system/security" name="system_security" groups="pdk" remote="witaqua" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="witaqua" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="witaqua" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="witaqua" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="witaqua" />
+
+  <!-- Vendor -->
+  <project path="vendor/witaqua" name="vendor_witaqua" remote="witaqua" />
+  <project path="vendor/support" name="vendor_support" remote="witaqua" />
+
+</manifest>

@@ -1,0 +1,20 @@
+WitAqua
+===========
+
+Getting started
+---------------
+
+To get started with Android/WitAqua, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the WitAqua trees, use a command like this:
+```
+repo init -u https://github.com/WitAqua/manifest.git -b 15
+```
+Then to sync up:
+```
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+Submitting patches
+------------------
+Patches are always welcome! Please submit your patches via Pull Request!
