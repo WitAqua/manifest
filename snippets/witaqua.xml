@@ -13,7 +13,7 @@
            sync-j="4"
            revision="refs/heads/14" />
 
-  <!-- FuliaUI additions -->
+  <!-- WitAqua additions -->
   <project path="manifest" name="manifest" remote="witaqua" />
 
   <project path="build/make" name="build" groups="pdk,sysui-studio" remote="witaqua" >
