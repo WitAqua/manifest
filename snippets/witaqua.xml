@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="witaqua"
+           fetch="https://github.com/WitAqua/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15" />
+
+	<remote  name="witaqua-devices"
+           fetch="https://github.com/WitAqua-Devices/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15" />
+
+  <!-- WitAqua additions -->
+  <project path="manifest" name="manifest" remote="witaqua" />
+
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="witaqua" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+	<project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="witaqua" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+	<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+
+	<project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
+
+	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
+	<project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
+  <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
+
+	<project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
+</manifest>
