@@ -34,6 +34,7 @@
   
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="witaqua"  />
 
   <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
 </manifest>
