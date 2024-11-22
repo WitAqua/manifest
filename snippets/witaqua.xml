@@ -30,6 +30,8 @@
   </project>
 
 	<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="witaqua" />
+
 
 	<project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
 
