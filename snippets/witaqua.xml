@@ -8,7 +8,7 @@
            sync-j="4"
            revision="refs/heads/15" />
 
-	<remote  name="witaqua-devices"
+  <remote  name="witaqua-devices"
            fetch="https://github.com/WitAqua-Devices/"
            review="witaqua-gerrit-server.tail5c05c7.ts.net"
            sync-c="true"
@@ -26,22 +26,22 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-	<project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="witaqua" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="witaqua" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-	<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="witaqua" />
 
 
-	<project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
 
-	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
-	<project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
   <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="witaqua"  />
 
-	<project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
+  <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
 </manifest>
