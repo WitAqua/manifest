@@ -3,6 +3,7 @@
 
   <remote  name="witaqua"
            fetch="https://github.com/WitAqua/"
+           review="witaqua-gerrit-server.tail5c05c7.ts.net"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/15" />
