@@ -6,14 +6,14 @@
            review="gerrit.witaqua.org"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/15" />
+           revision="refs/heads/15.1" />
 
 	<remote  name="witaqua-devices"
            fetch="https://github.com/WitAqua-Devices/"
            review="gerrit.witaqua.org"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/15" />
+           revision="refs/heads/15.1" />
 
   <!-- WitAqua additions -->
   <project path="manifest" name="manifest" remote="witaqua" />
