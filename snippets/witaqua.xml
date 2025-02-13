@@ -40,6 +40,7 @@
 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
+  <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
   <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="witaqua"  />
