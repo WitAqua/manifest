@@ -8,6 +8,12 @@
            sync-j="4"
            revision="refs/heads/15.1" />
 
+  <remote  name="witaqua-gitlab"
+           fetch="https://gitlab.com/witaqua/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15.1" />
+
   <remote  name="witaqua-devices"
            fetch="https://github.com/WitAqua-Devices/"
            review="gerrit.witaqua.org"
@@ -38,6 +44,7 @@
 
   <project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
 
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="witaqua-gitlab" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
   <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
