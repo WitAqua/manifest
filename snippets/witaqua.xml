@@ -24,6 +24,8 @@
   <!-- WitAqua additions -->
   <project path="manifest" name="manifest" remote="witaqua" />
 
+  <project path="bionic" name="bionic" groups="pdk" remote="witaqua" />
+
   <project path="build/make" name="build" groups="pdk,sysui-studio" remote="witaqua" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -39,9 +41,13 @@
   
   <project path="device/lineage/sepolicy" name="device_witaqua_sepolicy" remote="witaqua" />
 
+  <project path="external/liblhdc" name="external_liblhdc" remote="witaqua" />
+
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="witaqua" />
+
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="witaqua" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
 
@@ -52,6 +58,9 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
   <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="witaqua"  />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="witaqua" />
+  <project path="packages/modules/common" name="packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+
 
   <project path="system/core" name="system_core" groups="pdk" remote="witaqua" />
 
