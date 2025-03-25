@@ -65,4 +65,5 @@
   <project path="system/core" name="system_core" groups="pdk" remote="witaqua" />
 
   <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="witaqua" />
 </manifest>
