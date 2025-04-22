@@ -13,6 +13,12 @@
            sync-j="4"
            revision="refs/heads/15.2" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15.2" />
+
   <!-- WitAqua additions -->
   <project path="manifest" name="manifest" remote="witaqua" />
 
