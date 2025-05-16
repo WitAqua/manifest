@@ -51,6 +51,8 @@
 
   <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
 
+  <project path="WitAquaOTA" name="WitAquaOTA" remote="witaqua" />
+
   <!-- Track from crdroid -->
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" revision="15.0" remote="gitlab" />
 
