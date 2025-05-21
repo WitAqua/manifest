@@ -50,6 +50,7 @@
   <project path="system/core" name="system_core" remote="witaqua" />
 
   <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
+  <project path="vendor/addons" name="vendor_addons" remote="witaqua" />
 
   <project path="WitAquaOTA" name="WitAquaOTA" remote="witaqua" />
 
