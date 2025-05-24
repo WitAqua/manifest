@@ -46,6 +46,7 @@
 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
   <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="witaqua" />
 
   <project path="system/core" name="system_core" remote="witaqua" />
 
