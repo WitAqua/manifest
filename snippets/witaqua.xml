@@ -47,6 +47,7 @@
 
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="witaqua" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
   <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="witaqua" />
