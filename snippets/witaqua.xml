@@ -44,6 +44,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- CodeLinaro additions -->
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="witaqua" revision="16.0-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="witaqua" revision="16.0-sm8450" />  
+
   <!-- Sepolicy -->
   <project path="device/lineage/sepolicy" name="device_witaqua_sepolicy" remote="witaqua" />
 
