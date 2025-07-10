@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="https://witaqua.org/">
+    <img src="https://witaqua.org/witaqua.svg" width="70%" />
+  </a>
+</div>
+
 WitAqua
 ===========
 
@@ -13,6 +19,14 @@ repo init -u https://github.com/WitAqua/manifest.git -b 16.0 --git-lfs
 Then to sync up:
 ```
 repo sync
+```
+**Flags**
+```bash
+# Whether you are compiling being an OFFICIAL Maintainer:
+WITAQUA_BUILD_TYPE := OFFICIAL/UNOFFICIAL (Default: UNOFFICIAL)
+
+# Maintainer Name
+WITAQUA_MAINTAINER := "YourInput" (Default: Unknown)
 ```
 
 Submitting patches
