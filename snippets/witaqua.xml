@@ -100,6 +100,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/FaceUnlock" name="WitAqua/packages_apps_FaceUnlock" remote="gitlab" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="witaqua" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="witaqua" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="witaqua" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
