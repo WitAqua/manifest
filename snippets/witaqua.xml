@@ -101,6 +101,7 @@
   <!-- Packages -->
   <project path="packages/apps/FaceUnlock" name="WitAqua/packages_apps_FaceUnlock" remote="gitlab" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="witaqua" />
+  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="witaqua" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="witaqua" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="witaqua" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="witaqua" />
