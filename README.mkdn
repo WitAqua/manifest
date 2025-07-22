@@ -28,6 +28,11 @@ WITAQUA_BUILD_TYPE := OFFICIAL/UNOFFICIAL (Default: UNOFFICIAL)
 # Maintainer Name
 WITAQUA_MAINTAINER := "YourInput" (Default: Unknown)
 ```
+# Prepare your device with:
+lunch lineage_$devicecodename-bp2a-userdebug
+
+# Compile the ROM with brunch:
+mka bacon
 
 Submitting patches
 ------------------
