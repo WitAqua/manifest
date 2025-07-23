@@ -46,7 +46,7 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" revision="lineage-22.2" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="lineage-22.2" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" revision="lineage-22.2" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="lineage-22.2" />
+  <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="lineage-22.2" />-->
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" revision="lineage-22.2" />
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" revision="lineage-22.2" />
   <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" revision="lineage-22.2" />
