@@ -84,6 +84,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="witaqua" />
 
   <!-- Vendor -->
+  <project path="vendor/apn" name="vendor_apn" remote="witaqua" revision="main" />
   <project path="vendor/lineage" name="vendor_witaqua" remote="witaqua" />
   <project path="vendor/addons" name="vendor_addons" remote="witaqua" />
 </manifest>
