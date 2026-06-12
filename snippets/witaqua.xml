@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="witaqua"
+           fetch="https://github.com/WitAqua/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/16.2" />
+
+  <remote  name="witaqua-devices"
+           fetch="https://github.com/WitAqua-Devices/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/16.2" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/16.2" />
+
+  <!-- WitAqua additions -->
+  <project path="manifest" name="manifest" remote="witaqua" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="witaqua" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="witaqua" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="witaqua" />
+
+  <!-- External -->
+  <project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="witaqua" />
+  <project path="external/mejiro" name="external_mejiro" remote="witaqua" revision="main" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="witaqua" />
+
+  <!-- LineageOS additions -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="witaqua" />
+
+  <!-- Packages -->
+  <project path="packages/apps/FaceUnlock" name="WitAqua/packages_apps_FaceUnlock" remote="gitlab" />
+  <project path="packages/apps/FelicaService" name="packages_apps_FelicaService" remote="witaqua" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="witaqua" />
+  <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
+  <project path="packages/modules/Nfc" name="packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="witaqua" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" groups="pdk" remote="witaqua" />
+
+  <!-- Vendor -->
+  <project path="vendor/lineage" name="vendor_lineage" remote="witaqua" />
+  <project path="vendor/witaqua" name="vendor_witaqua" remote="witaqua" />
+
+</manifest>
