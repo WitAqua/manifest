@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3cfce199_e14e997e",
+        "filename": "snippets/witaqua.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2026-06-19T07:32:55Z",
+      "side": 1,
+      "message": "mainブランチで管理を楽にしませんか?",
+      "range": {
+        "startLine": 40,
+        "startChar": 2,
+        "endLine": 40,
+        "endChar": 76
+      },
+      "revId": "bd858cedf844a002875333712f89b687c303dc90",
+      "serverId": "5a06c6fe-ecb2-400e-bcbd-78c9ba895894"
+    }
+  ]
+}
