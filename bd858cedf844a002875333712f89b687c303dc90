@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f5aabd96_a8184263",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2026-06-22T07:57:39Z",
+      "side": 1,
+      "message": "BUILD＿TYPEの説明は消した方がいいかもしれないです",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 0
+      },
+      "revId": "bd858cedf844a002875333712f89b687c303dc90",
+      "serverId": "5a06c6fe-ecb2-400e-bcbd-78c9ba895894"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "702cf829_c7b703b5",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2026-06-22T07:57:39Z",
+      "side": 1,
+      "message": "```suggestion\nTo view the status of your and others\u0027 patches, visit [WitAqua Gerrit Code Review](https://review.witaqua.org/).\n```",
+      "range": {
+        "startLine": 36,
+        "startChar": 83,
+        "endLine": 36,
+        "endChar": 110
+      },
+      "revId": "bd858cedf844a002875333712f89b687c303dc90",
+      "serverId": "5a06c6fe-ecb2-400e-bcbd-78c9ba895894"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3cfce199_e14e997e",
         "filename": "snippets/witaqua.xml",
         "patchSetId": 1
