@@ -5,7 +5,8 @@
            fetch="https://github.com/WitAqua/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/16.2" />
+           revision="refs/heads/16.2"
+           review="review.witaqua.org" />
 
   <remote  name="witaqua-devices"
            fetch="https://github.com/WitAqua-Devices/"
