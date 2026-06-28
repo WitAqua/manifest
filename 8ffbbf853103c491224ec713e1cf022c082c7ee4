@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9b8a165_5083712d",
+        "filename": "snippets/witaqua.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2026-06-28T16:16:46Z",
+      "side": 1,
+      "message": "```suggestion\n  \u003cproject path\u003d\"witaqua/hudson\" name\u003d\"hudson\" remote\u003d\"witaqua\" revision\u003d\"main\" /\u003e\n```",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 83
+      },
+      "revId": "8ffbbf853103c491224ec713e1cf022c082c7ee4",
+      "serverId": "5a06c6fe-ecb2-400e-bcbd-78c9ba895894"
+    }
+  ]
+}
