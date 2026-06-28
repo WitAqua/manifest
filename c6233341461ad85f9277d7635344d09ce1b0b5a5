@@ -22,6 +22,30 @@
       },
       "revId": "c6233341461ad85f9277d7635344d09ce1b0b5a5",
       "serverId": "5a06c6fe-ecb2-400e-bcbd-78c9ba895894"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed92bab4_ec3fc846",
+        "filename": "snippets/witaqua.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2026-06-28T16:03:43Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "86210d55_443b6cb0",
+      "range": {
+        "startLine": 53,
+        "startChar": 2,
+        "endLine": 53,
+        "endChar": 113
+      },
+      "revId": "c6233341461ad85f9277d7635344d09ce1b0b5a5",
+      "serverId": "5a06c6fe-ecb2-400e-bcbd-78c9ba895894"
     }
   ]
 }
