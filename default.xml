@@ -564,7 +564,7 @@
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/usb-ids" name="platform/external/usb-ids" groups="pdk" remote="aosp" />
   <project path="external/uwb" name="platform/external/uwb" groups="pdk" remote="aosp" />
-  <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" remote="aosp" />
+  <project path="external/v4l2_codec2" name="LineageOS/android_external_v4l2_codec2" groups="pdk" />
   <project path="external/v4l-utils" name="platform/external/v4l-utils" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="pdk" remote="aosp" revision="f3f0485012135cbcff3822f129f3ac5b16c345b1" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" remote="aosp" />
@@ -847,7 +847,7 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" revision="refs/changes/27/3918627/1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk" clone-depth="1" remote="aosp" />
