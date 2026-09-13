@@ -61,6 +61,7 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="witaqua" />
   <project path="packages/apps/LMOSystemUIClock" name="packages_apps_LMOSystemUIClock" remote="witaqua" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="witaqua" />
+  <project path="packages/apps/QcomPdInfo" name="packages_apps_QcomPdInfo" remote="witaqua" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="witaqua" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="witaqua" />
   <project path="packages/apps/WitAquaMagic" name="packages_apps_WitAquaMagic" remote="witaqua" />
